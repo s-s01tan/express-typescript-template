@@ -17,6 +17,6 @@ export default (env: string) => {
         }
     }
 
-    // return Object.keys(config).includes(env) ? config[env] : config['development']
+    //return Object.keys(config).includes(env) ? config[env] : config['development']
     return env === 'test' || env === 'development' || env === 'production' ? config[env] : config['development']
 }
