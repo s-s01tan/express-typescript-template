@@ -1,0 +1,11 @@
+# env file
+.env
+
+# NPM Packages
+node_modules
+
+# Package Lock File
+package-lock.json
+
+# Built code
+dist
