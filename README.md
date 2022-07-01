@@ -6,7 +6,7 @@
 
 ### Main `scripts` including <strong>"test"</strong>, <strong>"build"</strong>, <strong>"start"</strong> and <strong>"dev"</strong> mode
 
-### TypeScript Configuration credentials in `config.ts`
+### TypeScript Configuration credentials in `tsconfig.json`
 
 ### Function returns config values including `host` , `port` , `db_url` and etc. by given `environment value`
 
@@ -58,4 +58,4 @@ $ npm run start
 $ npm run start:dev
 ```
 
-### which makes TSC to build and replace new built `dist` folder with an old one in each save event in code editor (`ctrl+s`).
+### Which makes TSC to build and replace new built `dist` folder with an old one in each save event in code editor (`ctrl+s`).
